@@ -34,9 +34,9 @@ while True:
   
     sale_total = adult_tickets * adult_price + child_tickets * child_price + concession_tickets * concession_price
     total_sales += sale_total
-    print(f"Total due: <img src="https://latex.codecogs.com/gif.latex?{sale_total:.2f}&quot;)
+    print(f"Total due: ${sale_total:.2f}")
 
-print(f&quot;Total%20sales:"/>{total_sales:.2f}")
+print(f"Total sales: ${total_sales:.2f}")
 print(f"Adult tickets sold: {adult_tickets}")
 print(f"Child tickets sold: {child_tickets}")
 print(f"Concession tickets sold: {concession_tickets}")
